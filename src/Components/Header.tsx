@@ -25,7 +25,7 @@ const Header = () => {
 
                         <LinksComponent classes="flex justify-start items-center space-x-5 mb-5" icon={<LinkedinIcon classes="w-11 h-11" color="#0076b6" />} link="https://www.linkedin.com/in/lennon-s%C3%A1nchez-freites-a677431bb/" label="Linkedin link" />
 
-                        <LinksComponent classes="flex justify-start items-center space-x-5" icon={<img src={images.curriculum} alt="curriculum-img" className="w-5 h-5" />} link="https://drive.google.com/file/d/1IGlU50RUo2wa-4Jb3MLIC2c5J8-tuWWW/view?usp=sharing" label="resume" />
+                        <LinksComponent classes="flex justify-start items-center space-x-5" icon={<img src={images.curriculum} alt="curriculum-img" className="w-5 h-5" />} link="https://drive.google.com/file/d/1Bmc7monjckrrUbbvX3TxxY4nEPQrxjXt/view?usp=sharing" label="resume" />
 
                     </div>
 
