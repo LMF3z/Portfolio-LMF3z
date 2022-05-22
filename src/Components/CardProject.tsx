@@ -12,7 +12,7 @@ const CardProject = ({ image, title, description, link }: PropsItemCardGrid) => 
                 <div className="card2 rounded-lg p-5 flex flex-col justify-between items-center space-y-10 lg:space-y-0">
                     <img src={image} alt="naruto-memoty-game-icon" className="rounded-lg" />
                     <label className="text-lg sm:text-2xl lg:text-3xl text-violet">
-                        <a href={link} target="_blank">
+                        <a href={link} target="_blank" rel="noreferrer">
                             {title}
                         </a>
                     </label>

@@ -13,7 +13,7 @@ const LinksComponent = ({ classes, label, link, icon, link_class }: Props) => {
     return (
         <div className={`${classes}`}>
             {icon}
-            <a target="_blank" href={link} className={link_class}>{label}</a>
+            <a target="_blank" rel="noreferrer" href={link} className={link_class}>{label}</a>
         </div>
     )
 }
