@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Koulen";
+    /* background-color: #1e1f1e;
+    background-color: #23314c; */
+    background-color: #1e2029;
+}
+
+.clip_path_image {
+    clip-path: circle(42% at 50% 40%);
+}
+
+/* From uiverse.io by @alexruix */
+/* From uiverse.io by @alexruix */
+.input {
+    line-height: 28px;
+    border: 2px solid transparent;
+    border-bottom-color: #3178c6;
+    padding: .2rem 0;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+   }
+   
+   .input:focus, input:hover {
+    outline: none;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+    border-color: #3178c6;
+   }
+   
+   .input::placeholder {
+    color: #777;
+   }
+   
+   .input:focus::placeholder {
+    opacity: 0;
+    transition: opacity .3s;
+   }
+
+   /* * buttons */
+   /* From uiverse.io by @adamgiebl */
+.button {
+    font-family: inherit;
+    font-size: 20px;
+    background: royalblue;
+    color: white;
+    min-height: 1rem;
+    height: 3rem;
+    /* padding: 0.7em 1em;
+    padding-left: 0.9em; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+   }
+   
+   .button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+   }
+   
+   .button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+   }
+   
+   .button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+   }
+   
+   .button:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+   }
+   
+   .button:hover span {
+    transform: translateX(25em);
+   }
+   
+   .button:active {
+    transform: scale(0.95);
+   }
+   
+   @keyframes fly-1 {
+    from {
+     transform: translateY(0.1em);
+    }
+   
+    to {
+     transform: translateY(-0.1em);
+    }
+   }
+
+   /* * cards */
+   
+   /* From uiverse.io by @Tiagoadag */
+.card {
+    /* width: 190px;
+    height: 254px; */
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+}
+   
+.card2 {
+    /* width: 190px;
+    height: 254px; */
+    width: 100%;
+    height: 100%;
+    background-color: #1a1a1a;
+    transition: all .2s;
+}
+   
+.card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+}
+   
+.card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+
+/* * grid projects */
+.grid_class {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 3;
+}
