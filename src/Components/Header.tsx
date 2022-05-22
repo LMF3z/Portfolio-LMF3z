@@ -9,7 +9,7 @@ const Header = () => {
             <article className="w-full h-full bg-bg_header_shadow flex">
                 <section className="w-full lg:w-1/5 h-screen text-white flex flex-col justify-evenly lg:py-10 items-center space-y-5">
                     <div className="text-center grid place-items-center relative">
-                        <img src={images.cover_photo} alt="profile-image" className="w-32 h-42 clip_path_image mx-auto" />
+                        <img src={images.cover_photo} alt="profile" className="w-32 h-42 clip_path_image mx-auto" />
                         <span className="text-3xl absolute bottom-1">LMF3z</span>
                     </div>
 
