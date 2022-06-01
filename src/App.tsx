@@ -1,3 +1,4 @@
+import { Toaster } from 'react-hot-toast';
 import AboutMe from "./Components/AboutMe"
 import ContactForm from "./Components/ContactForm"
 import GridSkills from "./Components/GridSkills"
@@ -14,6 +15,7 @@ const App = () => {
         <Projects />
         <ContactForm />
       </main>
+      <Toaster />
     </>
   )
 }

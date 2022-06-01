@@ -24,6 +24,7 @@ body {
     background-color: transparent;
     color: #fff;
     transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    @apply text-base;
    }
    
    .input:focus, input:hover {
