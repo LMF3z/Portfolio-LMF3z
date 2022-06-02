@@ -1,4 +1,4 @@
-import React, { FormEvent, useRef } from 'react'
+import { FormEvent, useRef } from 'react'
 import toast from 'react-hot-toast';
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup'
@@ -15,7 +15,7 @@ const ContactForm = () => {
 
     const formRef = useRef<HTMLFormElement>(null);
 
-    const { register, handleSubmit, formState: { errors } } = useForm<FormData>({
+    const { register, formState: { errors } } = useForm<FormData>({
         resolver: yupResolver(validations)
     });
 
