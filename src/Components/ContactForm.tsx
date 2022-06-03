@@ -11,7 +11,7 @@ type FormValues = {
 }
 
 const ContactForm = () => {
-    const { register, handleSubmit, formState: { errors } } = useForm<FormValues>({
+    const { register, handleSubmit, reset, formState: { errors } } = useForm<FormValues>({
         resolver: yupResolver(validations)
     });
 
@@ -25,7 +25,10 @@ const ContactForm = () => {
             body: JSON.stringify(data)
         })
             .then(response => response.json())
-            .then(() => toast.success("Your message was send successfully."))
+            .then(() => {
+                toast.success("Your message was send successfully.")
+                reset()
+            })
             .catch(error => {
                 console.log(error)
                 toast.error("Your message was not sent, try later.")
