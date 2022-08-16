@@ -14,12 +14,12 @@ const Header = () => {
                     </div>
 
                     <div className="lg:hidden text-center grid place-content-center gap-5">
-                        <p className="text-4xl">Hi, I´am</p>
-                        <p className="text-4xl">Lennon Sánchez</p>
-                        <h1 className="text-5xl">Web developer</h1>
+                        <p className="text-2xl lg:text-4xl">Hi, I´am</p>
+                        <p className="text-3xl lg:text-4xl">Lennon Sánchez</p>
+                        <h1 className="">Web developer</h1>
                     </div>
 
-                    <div className="w-full pl-10">
+                    <div className="w-full pl-5 lg:pl-10">
 
                         <LinksComponent classes="flex justify-start items-center space-x-5 mb-5" icon={<GithubIcon classes="w-11 h-11" color="#ccc" />} link="https://github.com/LMF3z" label="Github link" />
 

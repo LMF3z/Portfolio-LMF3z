@@ -9,6 +9,14 @@ body {
     background-color: #1e2029;
 }
 
+h1 {
+    @apply text-4xl lg:text-5xl;
+}
+
+p {
+    @apply text-lg lg:text-2xl ;
+}
+
 .clip_path_image {
     clip-path: circle(42% at 50% 40%);
 }

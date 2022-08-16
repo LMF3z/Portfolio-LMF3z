@@ -18,6 +18,7 @@ import expenditure_recording from './expenditure_recording.png';
 import find_lyrics from './find-lyrics.png';
 import weather_search from './weather_search.png';
 import naruto_memory_game from './naruto_memory_game.png';
+import feeseAppIcon from './feese-app.jpeg';
 
 const images = {
   cover_photo,
@@ -40,6 +41,7 @@ const images = {
   find_lyrics,
   weather_search,
   naruto_memory_game,
+  feeseAppIcon,
 };
 
 export default images;

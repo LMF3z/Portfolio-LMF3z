@@ -9,7 +9,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <main className="w-full min-h-screen container mx-auto flex flex-col justify-center items-center">
+      <main className="w-full min-h-screen px-5 md:px-10 flex flex-col justify-center items-center space-y-5 lg:space-y-10">
         <AboutMe />
         <GridSkills />
         <Projects />
