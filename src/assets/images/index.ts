@@ -21,6 +21,7 @@ import naruto_memory_game from './naruto_memory_game.png';
 import feeseAppIcon from './feese-app.jpeg';
 import clipboardIcon from './clipboard.png';
 import pritingSoftIcon from './3d-printing-software.png';
+import invTattooOne from './invTattoo/inv-1.png';
 
 const images = {
   cover_photo,
@@ -46,6 +47,7 @@ const images = {
   feeseAppIcon,
   clipboardIcon,
   pritingSoftIcon,
+  invTattooOne,
 };
 
 export default images;
