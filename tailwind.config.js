@@ -23,6 +23,20 @@ module.exports = {
       gridTemplateRows: {
         7: 'repeat(7, minmax(0, 1fr))',
       },
+      animation: {
+        fadeIn: 'fadeIn 0.3s ease',
+        fadeOut: 'fadeOut 0.3s ease',
+      },
+      keyframes: {
+        fadeIn: {
+          from: { transform: 'scale(0)' },
+          to: { transform: 'scale(1)' },
+        },
+        fadeOut: {
+          from: { transform: 'scale(1)' },
+          to: { transform: 'scale(0)' },
+        },
+      },
     },
   },
   plugins: [],

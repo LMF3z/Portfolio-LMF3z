@@ -4,8 +4,9 @@
 
 body {
     font-family: "Koulen";
-    /* background-color: #1e1f1e;
-    background-color: #23314c; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: #1e2029;
 }
 
