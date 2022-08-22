@@ -18,6 +18,7 @@ import expenditure_recording from './expenditure_recording.png';
 import find_lyrics from './find-lyrics.png';
 import weather_search from './weather_search.png';
 import naruto_memory_game from './naruto_memory_game.png';
+import favoritesAlbumes from './favorites-albums-app.png';
 import feeseAppIcon from './feese-app.jpeg';
 import clipboardIcon from './clipboard.png';
 import pritingSoftIcon from './3d-printing-software.png';
@@ -44,6 +45,7 @@ const images = {
   find_lyrics,
   weather_search,
   naruto_memory_game,
+  favoritesAlbumes,
   feeseAppIcon,
   clipboardIcon,
   pritingSoftIcon,
