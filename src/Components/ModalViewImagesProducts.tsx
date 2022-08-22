@@ -11,7 +11,6 @@ const ModalViewImagesProducts = () => {
         const width = sliderIndividuar.current!.clientWidth
 
         if (type) {
-            sliderRef.current!.style.transition = "5s ease all"
             sliderRef.current!.scrollLeft += width
         }
 
