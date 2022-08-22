@@ -7,7 +7,7 @@ interface PropsItemCardGrid {
 
 const CardProjectWithoutRedirect = ({ imageSource, title, description, handleClick }: PropsItemCardGrid) => {
     return (
-        <section className="w-full h-90 lg:h-80vh max-h-[90vh] flex justify-center items-center">
+        <div className="w-full h-[70vh] flex justify-center items-center">
             <div className="card">
                 <div className="card2 rounded-lg p-5 flex flex-col justify-start items-center space-y-10 lg:space-y-5">
                     <img src={imageSource} alt="project-icon" className="rounded-lg w-auto max-h-[50%]" />
@@ -19,7 +19,7 @@ const CardProjectWithoutRedirect = ({ imageSource, title, description, handleCli
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 

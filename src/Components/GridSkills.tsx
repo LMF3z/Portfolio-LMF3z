@@ -4,9 +4,11 @@ import ItemGrid from "./ItemGrid"
 const GridSkills = () => {
     return (
         <section className="w-full min-h-screen text-white flex flex-col justify-center items-center space-y-10 text-justify">
+
             <img src={images.skills} alt="profile-icon" className="w-16 lg:w-20 h-16 lg:h-20" />
             <h1 className="text-violet">Skills</h1>
-            <div className="w-full grid grid-cols-3 grid-rows-4 lg:grid-cols-4 lg:grid-rows-3 gap-2">
+
+            <div className="w-full rounded-lg grid place-items-center gap-5 lg:gap-5 grid-cols-2 md:grid-cols-3 text-center text-base md:text-lg">
                 <ItemGrid title="HTML5" icon={images.html5} />
                 <ItemGrid title="CSS3" icon={images.css} />
                 <ItemGrid title="Tailwind.css" icon={images.tailwindcss} />
