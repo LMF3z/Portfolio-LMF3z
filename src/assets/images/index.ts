@@ -19,7 +19,8 @@ import find_lyrics from './find-lyrics.png';
 import weather_search from './weather_search.png';
 import naruto_memory_game from './naruto_memory_game.png';
 import favoritesAlbumes from './favorites-albums-app.png';
-import feeseAppIcon from './feese-app.jpeg';
+import feeseServicesAppIcon from './feese-services.png';
+import clientVipAppIcon from './client-vip.png';
 import clipboardIcon from './clipboard.png';
 import pritingSoftIcon from './3d-printing-software.png';
 import invTattooOne from './invTattoo/inv-1.png';
@@ -46,7 +47,8 @@ const images = {
   weather_search,
   naruto_memory_game,
   favoritesAlbumes,
-  feeseAppIcon,
+  feeseServicesAppIcon,
+  clientVipAppIcon,
   clipboardIcon,
   pritingSoftIcon,
   invTattooOne,
