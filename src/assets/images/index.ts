@@ -8,8 +8,12 @@ import tailwindcss from './tailwindcss-icon.svg';
 import bootstrap from './bootstrap.png';
 import JavaScript from './JavaScript.png';
 import react from './react.png';
+import redux from './redux.png';
+import reactQuery from './react-query.png';
+import zustand from './zustand.jpg';
 import typescript from './typescript.png';
 import expressjs from './expressjs.png';
+import nestjs from './nest.png';
 import mysql from './mysql.png';
 import mongodb from './mongodb.svg';
 import git from './git.svg';
@@ -36,8 +40,12 @@ const images = {
   bootstrap,
   JavaScript,
   react,
+  redux,
+  reactQuery,
+  zustand,
   typescript,
   expressjs,
+  nestjs,
   mysql,
   mongodb,
   git,
