@@ -20,7 +20,7 @@ import git from './git.svg';
 import docker from './Docker-logotipo.png';
 
 // logos
-import github from './github-logo.jpg';
+import github from './github-logo.webp';
 import linkedin from './linkedin-logo.png';
 
 // projects
