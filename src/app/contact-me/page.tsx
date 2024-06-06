@@ -76,7 +76,7 @@ export default function () {
         )}
         <form
           ref={formRef}
-          className='w-full md:max-w-[70%] space-y-3 py-3 px-4 bg-[#292b36] rounded-lg'
+          className='w-full md:max-w-[70%] space-y-3 py-3 px-4 dark:bg-[#292b36] rounded-lg'
           autoComplete='off'
           onSubmit={handleSend}
         >
@@ -104,7 +104,7 @@ export default function () {
               type='submit'
               classes='w-20 h-8 md:w-32 md:h-10 group relative inline-block overflow-hidden'
             >
-              <span className='absolute top-[15%] md:top-[20%] left-[20%] md:left-[33%] group-hover:-translate-x-[15%] transition duration-300 ease-in-out z-20'>
+              <span className='absolute top-[15%] md:top-[20%] left-[20%] md:left-[33%] group-hover:-translate-x-[15%] transition duration-300 ease-in-out z-20 text-white'>
                 Submit
               </span>
               <span className='absolute right-0 top-[15%] md:top-[20%] translate-x-[100%] group-hover:-translate-x-[20%] md:group-hover:-translate-x-[50%] transition duration-300 ease-in-out z-10'>

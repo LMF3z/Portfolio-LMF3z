@@ -15,7 +15,10 @@ const CustomInput = ({
 }: Props) => {
   return (
     <div className={`w-full grid ${containerFormControlClasses}`}>
-      <label id={label} className={`${labelClasses}`}>
+      <label
+        id={label}
+        className={`text-black dark:text-white ${labelClasses}`}
+      >
         {label}
       </label>
       {children}
