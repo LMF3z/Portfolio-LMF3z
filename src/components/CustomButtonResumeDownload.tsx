@@ -5,7 +5,7 @@ import CustomButton from './button/CustomButton';
 const CustomButtonResumeDownload = () => {
   const handleClient = async () => {
     let link = document.createElement('a');
-    let url = '/Lennon-Sanchez-professional-web-developer-resume(english).pdf';
+    let url = '/Lennon Sánchez Professional Web Developer Resume (english).pdf';
 
     link.href = url;
     link.download = 'Lennon-Sanchez-resume(english).pdf';
