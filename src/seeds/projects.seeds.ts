@@ -10,9 +10,10 @@ export const projectsSeeds = [
   {
     title: 'Save Favorites Albums',
     description:
-      "App to save and delete favorite albums, consuming Spotify's Rest API. Login, verification with Spotify, refresh token and logout. React with TypeScript, react-router-dom, React-icons and Tailwind.css were used.",
+      "App to save and delete favorite albums, consuming Spotify's Rest API. Login, verification with Spotify, refresh token and logout.",
     image: favAlbumsImage,
     link: 'https://lennon-sanchez-front.vercel.app/login',
+    tools: ['Spotify API', 'React', 'TypeScript', 'Tailwind'],
   },
   {
     title: 'Naruto memory app',
@@ -20,6 +21,7 @@ export const projectsSeeds = [
       'Challenge placed in the community. It consists of solving a memory game, with the desired theme, in a set time.',
     image: NarutoMemoryImage,
     link: 'https://amazing-naruto-memory-game.netlify.app',
+    tools: ['React', 'Javascript', 'TypeScript', 'Tailwind'],
   },
   {
     title: 'Expenditure recording app',
@@ -27,6 +29,7 @@ export const projectsSeeds = [
       'App to keep a list of expenses. It is initialized with an initial balance, as expenses are added they are subtracted from that balance and the percentage spent is shown in the graph. You can delete, edit and filter by category each expense.',
     image: expenditureImage,
     link: 'https://recording-expediture.netlify.app',
+    tools: ['React', 'Javascript', 'TypeScript', 'Tailwind'],
   },
   {
     title: 'Weather search app',
@@ -34,6 +37,13 @@ export const projectsSeeds = [
       'Consumption of a Rest API that returns weather data according to country and city selected.',
     image: weatherSearchImage,
     link: 'https://weather-search-cities-app.netlify.app',
+    tools: [
+      'React',
+      'Javascript',
+      'TypeScript',
+      'Openweathermap API',
+      'Tailwind',
+    ],
   },
   {
     title: 'Search songs lyrics',
@@ -41,5 +51,6 @@ export const projectsSeeds = [
       'Search for song lyrics by artist and song name. A Rest API is consumed.',
     image: findLyricsImage,
     link: 'https://find-lyrics-app.netlify.app',
+    tools: ['React', 'Javascript', 'TypeScript', 'Tailwind'],
   },
 ];

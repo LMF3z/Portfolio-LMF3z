@@ -4,14 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
   --text-color: #e6e7e6;
   /* Your default theme */
   --background: #e6e7e6;
   --foreground: #1d1f22;
 
-  font-family: "Anta", sans-serif;
+  font-family: 'Anta', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -22,26 +21,21 @@
 }
 
 @layer base {
-
   body {
     @apply bg-[#f2f2f2] dark:bg-bg_primary_color dark:text-text_color_primary scroll-smooth;
   }
-  
+
   img {
     @apply rounded-lg object-cover;
   }
-  
+
   h1 {
-  
-    @apply text-5xl;
-  
-  } 
-  
+    @apply text-4xl;
+  }
+
   h2 {
-  
     @apply text-2xl;
-  
-  } 
+  }
 }
 
 #toggle:checked ~ #container-toggle {
@@ -63,12 +57,13 @@
 }
 @media (min-width: 1024px) {
   .gallery_responsive {
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));  
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   }
 }
 
 ::-webkit-scrollbar {
-  @apply w-[3px];
+  /* @apply w-[3px]; */
+  @apply w-[3px] lg:w-0;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -77,4 +72,27 @@
 
 ::-webkit-scrollbar-thumb:hover {
   @apply bg-custom_purple;
+}
+
+.animate_bounce:hover {
+  @apply bg-custom_purple;
+  animation: bounce_613 0.4s linear;
+}
+
+@keyframes bounce_613 {
+  40% {
+    transform: scale(1.4);
+  }
+
+  60% {
+    transform: scale(0.8);
+  }
+
+  80% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }

@@ -18,6 +18,8 @@ const config: Config = {
         bg_primary_color: '#1d1f22',
         text_color_primary: '#e6e7e6',
         custom_purple: '#7c6be9',
+        bg_card: '#1B202F',
+        bg_tag_skills: '#354877',
       },
     },
   },
