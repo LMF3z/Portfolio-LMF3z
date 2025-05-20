@@ -8,5 +8,6 @@ export const productsSeeds = [
     image: clientVipImage,
     link: 'https://client-vip-app.vercel.app/auth/login',
     tools: ['React', 'Typescript', 'Tailwind', 'Express', 'MySQL'],
+    video: 'https://www.youtube.com/embed/KtyYtXOHPzI',
   },
 ];
