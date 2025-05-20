@@ -102,7 +102,7 @@ export const ShowDataContainer = () => {
                         setIsOpen(true);
                       }}
                     >
-                      View video
+                      Watch video
                     </div>
                     {product.tools.map((tool, i) => (
                       <div
