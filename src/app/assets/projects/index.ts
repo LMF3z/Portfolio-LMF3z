@@ -5,3 +5,4 @@ export * as weatherSearchImage from './weather_search.png';
 export * as findLyricsImage from './find-lyrics.png';
 
 export * as clientVipImage from './client-vip.png';
+export * as swarmLogo from './swarm-logo.png';

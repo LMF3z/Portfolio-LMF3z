@@ -27,7 +27,7 @@ export const ContainerModal = ({
         }
       }}
     >
-      <div className='w-[50%] h-[50%] relative z-10 bg-white dark:bg-gray-800 rounded-lg shadow-xl p-6 mx-4'>
+      <div className='w-[90%] lg:w-[60%] h-[40%] lg:h-[60%] relative z-10 bg-white dark:bg-gray-800 rounded-lg shadow-xl p-6 mx-4'>
         {children}
       </div>
 

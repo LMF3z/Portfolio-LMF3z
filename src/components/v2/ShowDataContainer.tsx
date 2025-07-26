@@ -70,17 +70,17 @@ export const ShowDataContainer = () => {
                 key={i}
                 className='p-3 md:grid md:grid-cols-4 cursor-pointer bg-bg_card rounded-lg'
               >
-                <div className='col-span-1 flex justify-center items-center'>
+                <div className='col-span-1 md:col-span-2 lg:col-span-1 flex justify-center items-center p-1'>
                   <Image
                     src={product.image}
-                    alt='image-project'
-                    className='w-[90%] h-[90%] rounded-lg'
-                    width={2000}
-                    height={2000}
+                    alt={`image-${product.title}`}
+                    className='rounded-lg object-fill'
+                    width={200}
+                    height={200}
                   />
                 </div>
 
-                <div className='space-y-3 col-span-3'>
+                <div className='space-y-3 col-span-3 md:col-span-2 lg:col-span-3'>
                   <Link href={product.link} target='_blank'>
                     <div className='relative text-custom_purple'>
                       <h2 className='flex cursor-pointer'>
