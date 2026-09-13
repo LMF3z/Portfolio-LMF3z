@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import BatSymbol from './BatSymbol';
 
-const links = ['Arsenal', 'Projects', 'Experience', 'About', 'Contact'];
+const links = ['Arsenal', 'Files', 'Experience', 'About', 'Contact'];
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
